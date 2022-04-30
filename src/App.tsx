@@ -84,7 +84,7 @@ function App() {
             <p title={serachResult?.name}>{serachResult?.name}</p>
             <p title={serachResult?.qq}>{serachResult?.qq}</p>
           </div>
-          <Loading visible={loadingVisible}><div>加载中</div></Loading>
+          <Loading visible={loadingVisible} />
         </div>
       </div>
     </>

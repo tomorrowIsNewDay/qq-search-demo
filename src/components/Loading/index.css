@@ -1,0 +1,35 @@
+
+.search-loading-wrap {
+    position: absolute;
+    width: 60px;
+    margin: 0 auto;
+    height: 60px;
+    text-align: center;
+    left: 0;
+    right: 0;
+    background: #eeeeee;
+    line-height: 60px;
+  }
+  
+  .search-loading{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 2px solid transparent;
+    border-top: 2px solid #000;
+    border-left: 2px solid #000;
+    animation: rotate 3s infinite linear;
+  }
+  
+  @keyframes rotate {
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
